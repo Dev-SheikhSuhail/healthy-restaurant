@@ -1,1 +1,3 @@
-# healthy-restaurant
+# Healthy-Restaurant
+
+Repo for healthy-restaurant.
