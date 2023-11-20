@@ -7,9 +7,9 @@ body {
 }
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  gap: 417px;
 }
 .logo-section {
   display: flex;
@@ -44,4 +44,66 @@ header {
   border: 0;
   padding: 8px 24px;
   color: white;
+}
+.hero-section {
+  display: flex;
+  gap: 59px;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+.next-btn {
+  width: 8px;
+  height: 8px;
+  margin: 0 215px 0 200px;
+}
+.dish-title {
+  font-size: 14px;
+  text-align: right;
+  line-height: 21px;
+  margin: 4px 237px 0 114px;
+}
+.dish-sub-title {
+  color: #dad8d7;
+  font-size: 13px;
+  text-align: right;
+  margin: 0 237px 0 37px;
+}
+.right-section {
+  padding: 31px 48px 2px 19px;
+}
+.title {
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+.text {
+  font-size: 64px;
+  line-height: 69.5px;
+  margin: 0;
+}
+.description {
+  max-width: 411px;
+  margin-top: 34px;
+  margin-bottom: 0;
+}
+.right-section button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  background: #f4511f;
+  border: 0;
+  padding: 16px 28px;
+  color: white;
+  margin-top: 42px;
+}
+.next-hero {
+  display: flex;
+  gap: 16px;
+  padding: 85px 450px 0px 444px;
+}
+.current-hero {
+  width: 24px;
+  height: 5px;
 }
