@@ -1,15 +1,22 @@
 /* This will be the styles file for Healthy-Restaurant */
 body {
-  margin: 0 160px;
+  margin: 0 8%;
   background: black;
   color: white;
   font-family: "Poppins", sans-serif;
 }
+button {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  justify-content: space-between;
 }
 .logo-section {
   display: flex;
@@ -37,11 +44,70 @@ header {
 }
 .navbar button {
   font-size: 16px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
   border-radius: 24px;
   background: #f4511f;
   border: 0;
   padding: 8px 24px;
   color: white;
+}
+.hero-section {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+}
+.next-btn {
+  width: 8px;
+  height: 8px;
+  margin: 0 auto;
+}
+.dish-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  text-align: right;
+  line-height: 21px;
+  width: 44%;
+}
+
+.right-section {
+  flex-basis: 50%;
+  padding: 40px 0 2px 0;
+}
+.title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.text {
+  font-size: 64px;
+  line-height: 70px;
+  margin: 0;
+}
+.description {
+  max-width: 66%;
+  margin-top: 36px;
+}
+.right-section button {
+  font-size: 16px;
+  border-radius: 8px;
+  background: #f4511f;
+  border: 0;
+  padding: 16px 28px;
+  color: white;
+  margin-top: 42px;
+}
+.next-hero {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  width: 75%;
+  padding-top: 48px;
+}
+.current-hero {
+  width: 24px;
+  height: 5px;
 }
