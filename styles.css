@@ -153,12 +153,20 @@ header {
   font-size: 36px;
   line-height: 54px;
 }
-.about-left-section button {
+.about-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #dad8d7;
+}
+.about-left-section button,
+.discount-btn,
+.subscribe-btn {
   width: fit-content;
   border-radius: 8px;
   padding: 16px 28px;
 }
-.premium-title {
+.premium-title,
+.arrivals-title {
   font-size: 36px;
   line-height: 54px;
   text-align: center;
@@ -179,7 +187,7 @@ header {
 .cart-image {
   background: #f4511f;
   border-radius: 4px 4px 12px 4px;
-  padding: 8px 4px 4px;
+  padding: 6px 4px 0px;
   align-self: flex-end;
 }
 .item-name {
@@ -195,4 +203,74 @@ header {
   margin-top: 8px;
   font-size: 16px;
   line-height: 24px;
+}
+.discount-section {
+  display: flex;
+  margin-top: 224px;
+  justify-content: center;
+  gap: 116px;
+}
+.discount-right {
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discount-btn {
+  margin-top: 28px;
+}
+
+.arrivals-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.new-tag {
+  font-size: 12px;
+  line-height: 20px;
+  background: #f4511f;
+  border-radius: 4px;
+  padding: 4px 8px;
+  align-self: flex-start;
+}
+.arrivals-item {
+  display: flex;
+  gap: 60px;
+}
+.item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price {
+  margin-top: 18px;
+}
+.item-prev-price {
+  color: #f4511f;
+  font-size: 12px;
+  line-height: 20px;
+}
+.newsletter {
+  margin-top: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+.newsletter-title {
+  font-size: 36px;
+  line-height: 54px;
+}
+.newsletter-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #dad8d7;
+  text-align: center;
+  max-width: 32%;
+}
+.subscribe-btn {
+  margin-left: 272px;
 }
