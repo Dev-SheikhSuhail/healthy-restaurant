@@ -312,6 +312,7 @@ footer {
   color: #dad8d7;
 }
 
+/* Media Query For Tablets */
 @media (min-width: 460px) and (max-width: 1280px) {
   .left-section {
     flex-basis: 50%;
@@ -414,5 +415,87 @@ footer {
   }
   .footer-menu-title {
     width: max-content;
+  }
+}
+
+/* Media Query For Mobiles */
+@media (max-width: 460px) {
+  body {
+    margin: 0 5%;
+  }
+  header {
+    gap: 20px;
+  }
+  .logo-section p {
+    font-size: 12px;
+    margin-left: 2px;
+  }
+  .navbar {
+    gap: 6px;
+    font-size: 12px;
+  }
+  .navbar button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .right-section {
+    text-align: center;
+  }
+  .next-hero {
+    width: unset;
+  }
+  .services-group {
+    flex-direction: column;
+  }
+  .service-item {
+    max-width: unset;
+  }
+  .services-group {
+    gap: 90px;
+  }
+  .about-us {
+    flex-direction: column;
+  }
+  .about-left-section {
+    max-width: unset;
+  }
+  .about-right-section {
+    display: none;
+  }
+  .premium-list {
+    grid-template-columns: auto auto;
+    grid-gap: 68px 24px;
+  }
+  .discount-section {
+    flex-direction: column;
+    margin-top: 160px;
+    gap: 60px;
+  }
+  .arrivals-list {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .arrivals-item {
+    gap: 4px;
+    width: 100%;
+    justify-content: center;
+  }
+  .newsletter-description {
+    max-width: unset;
+  }
+  footer {
+    margin-top: 112px;
+    gap: 60px;
+  }
+  .footer-main {
+    flex-direction: column;
+    gap: 36px;
+    width: 100%;
+  }
+  .footer-logo-text br {
+    display: none;
   }
 }
