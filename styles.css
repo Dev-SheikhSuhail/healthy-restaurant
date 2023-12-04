@@ -56,6 +56,7 @@ header {
   display: flex;
   gap: 80px;
   justify-content: center;
+  padding-top: 25px;
 }
 .left-section {
   display: flex;
@@ -73,12 +74,12 @@ header {
   font-size: 14px;
   text-align: right;
   line-height: 21px;
-  width: 44%;
+  width: 45%;
 }
 
 .right-section {
-  flex-basis: 50%;
-  padding: 40px 0 2px 0;
+  flex-basis: 40%;
+  padding: 20px 0 2px 0;
 }
 .title {
   font-size: 20px;
@@ -90,7 +91,7 @@ header {
   margin: 0;
 }
 .description {
-  max-width: 66%;
+  max-width: 92%;
   margin-top: 36px;
 }
 .right-section button {
@@ -274,9 +275,7 @@ header {
   text-align: center;
   max-width: 32%;
 }
-.subscribe-btn {
-  margin-left: 272px;
-}
+
 footer {
   margin-top: 160px;
   display: flex;
@@ -311,4 +310,192 @@ footer {
   font-size: 12px;
   line-height: 18px;
   color: #dad8d7;
+}
+
+/* Media Query For Tablets */
+@media (min-width: 460px) and (max-width: 1280px) {
+  .left-section {
+    flex-basis: 50%;
+  }
+  .hero-section {
+    gap: 50px;
+  }
+  .left-section img {
+    width: 45vw;
+  }
+  .text {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .description {
+    font-size: 13px;
+    margin-top: 20px;
+    max-width: 77%;
+  }
+  .right-section button,
+  .about-us button,
+  .subscribe-btn {
+    padding: 12px 18px;
+  }
+  .next-hero {
+    width: auto;
+    padding-top: 48px;
+  }
+  .services-section .title,
+  .premium-title,
+  .arrivals-title,
+  .newsletter {
+    font-size: 30px;
+    line-height: 26px;
+  }
+  .services-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+  }
+  .service-item {
+    max-width: 25vw;
+  }
+  .service-item img {
+    width: 70%;
+  }
+  .service-name,
+  .premium-item .item-name {
+    font-size: 16px;
+  }
+  .service-description,
+  .about-description {
+    font-size: 13px;
+  }
+  .about-us {
+    gap: 40px;
+  }
+  .about-left-section {
+    gap: 30px;
+    max-width: 50%;
+  }
+  .about-title {
+    font-size: 30px;
+  }
+  .about-right-section img {
+    width: 90%;
+  }
+  .premium-list {
+    grid-gap: 68px 24px;
+  }
+  .item-price {
+    font-size: 14px;
+  }
+  .arrivals-item {
+    gap: 32px;
+  }
+  .item-content img {
+    width: 80%;
+  }
+  .item-content .item-name {
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+  }
+  .newsletter-description {
+    max-width: 55%;
+  }
+  footer {
+    margin-top: 100px;
+    gap: 64px;
+  }
+  .footer-main {
+    gap: 64px;
+  }
+  .footer-logo-text {
+    font-size: 16px;
+    width: max-content;
+  }
+  .footer-menu-title {
+    width: max-content;
+  }
+}
+
+/* Media Query For Mobiles */
+@media (max-width: 460px) {
+  body {
+    margin: 0 5%;
+  }
+  header {
+    gap: 20px;
+  }
+  .logo-section p {
+    font-size: 12px;
+    margin-left: 2px;
+  }
+  .navbar {
+    gap: 6px;
+    font-size: 12px;
+  }
+  .navbar button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .right-section {
+    text-align: center;
+  }
+  .next-hero {
+    width: unset;
+  }
+  .services-group {
+    flex-direction: column;
+  }
+  .service-item {
+    max-width: unset;
+  }
+  .services-group {
+    gap: 90px;
+  }
+  .about-us {
+    flex-direction: column;
+  }
+  .about-left-section {
+    max-width: unset;
+  }
+  .about-right-section {
+    display: none;
+  }
+  .premium-list {
+    grid-template-columns: auto auto;
+    grid-gap: 68px 24px;
+  }
+  .discount-section {
+    flex-direction: column;
+    margin-top: 160px;
+    gap: 60px;
+  }
+  .arrivals-list {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .arrivals-item {
+    gap: 4px;
+    width: 100%;
+    justify-content: center;
+  }
+  .newsletter-description {
+    max-width: unset;
+  }
+  footer {
+    margin-top: 112px;
+    gap: 60px;
+  }
+  .footer-main {
+    flex-direction: column;
+    gap: 36px;
+    width: 100%;
+  }
+  .footer-logo-text br {
+    display: none;
+  }
 }
